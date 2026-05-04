@@ -37,3 +37,22 @@ void Mahasiswa::printA11() {
     cout << "Nama = " << nama << endl;
     cout << endl;
 }
+
+int main(){
+
+    Mahasiswa mhs1("Sri Dadi");
+    Mahasiswa mhs2("Budi Jatniko");
+    Mahasiswa::setNim(9);
+    Mahasiswa mhs3("Andi Janu");
+    Mahasiswa mhs4("Joko Wahono");
+
+    mhs1.printA11();
+    mhs2.printA11();
+    mhs3.printA11();
+    mhs4.printA11();
+
+    cout << "Akses dari luar object = " << Mahasiswa::getNim() << endl;
+    system("pause");
+    
+    return 0;
+}
