@@ -18,3 +18,7 @@ Mahasiswa(string pnama) :nama(pnama) {
 
 int Mahasiswa::nim = 10;
 
+void Mahasiswa::setID(){
+    id = ++nim;
+};
+
