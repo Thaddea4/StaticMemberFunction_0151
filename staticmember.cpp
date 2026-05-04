@@ -29,3 +29,16 @@ void Mahasiswa::printA11() {
     cout << endl;
 };
 
+int main() {
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswa mhs4("Joko Purbo");
+
+    mhs1.printA11();
+    mhs2.printA11();
+    mhs3.printA11();
+    mhs4.printA11();
+
+    return 0;
+}
